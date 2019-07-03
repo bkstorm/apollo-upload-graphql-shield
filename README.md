@@ -15,3 +15,4 @@
 ## How to reproduce the error
 - Fill the email and avatar file, then click the `Update` button, the error will be printed in the console.
 - If change the rule `isAuthenticated` to `allow`, everything will be fine.
+- This error happens when using graphql-shield 6.0.2, 5.7.1. Downgrading graphql-shield to 5.3.1 will fix it.
