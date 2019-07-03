@@ -1,0 +1,15 @@
+schema: ./src/schema.graphql
+documents:
+  - "./src/app/graphql/*.graphql"
+overwrite: true
+generates:
+  ./src/app/generated/graphql.ts:
+    config:
+      noGraphqlTag: true
+    plugins:
+      - typescript-common
+      - typescript-client
+      - typescript-apollo-angular
+  ./schema.json:
+    plugins:
+      - introspection

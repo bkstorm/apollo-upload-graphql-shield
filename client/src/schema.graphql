@@ -1,0 +1,14 @@
+type User {
+  email: String
+  avatar: String
+}
+
+scalar Upload
+
+type Query {
+  users: [User]
+}
+
+type Mutation {
+  updateUser(email: String!, avatarFile: Upload!): User
+}

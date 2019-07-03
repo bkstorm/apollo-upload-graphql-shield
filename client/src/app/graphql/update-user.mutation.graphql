@@ -1,0 +1,6 @@
+mutation updateUser($email: String!, $avatarFile: Upload!) {
+  updateUser(email: $email, avatarFile: $avatarFile) {
+    email
+    avatar
+  }
+}

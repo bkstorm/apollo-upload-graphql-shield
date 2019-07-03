@@ -1,0 +1,33 @@
+{
+  "name": "upload-graphql-shield",
+  "version": "1.0.0",
+  "description": "Reproduce error when uploading files with graphql-shield",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkstorm/upload-graphql-shield.git"
+  },
+  "keywords": [
+    "graphql-shield",
+    "apollo-server",
+    "upload"
+  ],
+  "author": "bkstorm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkstorm/upload-graphql-shield/issues"
+  },
+  "homepage": "https://github.com/bkstorm/upload-graphql-shield#readme",
+  "dependencies": {
+    "apollo-server": "^2.6.7",
+    "graphql": "^14.4.1",
+    "graphql-middleware": "^3.0.2",
+    "graphql-shield": "^6.0.2",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.5"
+  }
+}
